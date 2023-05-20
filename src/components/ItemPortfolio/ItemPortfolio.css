@@ -1,0 +1,12 @@
+.item-portfolio {
+    display: inline-block;
+    border: 2px solid #191825;
+    color: aliceblue;
+    margin: 50px;
+}
+
+.item-portfolio a {
+    text-decoration: none;
+    color: #865dff;
+    font-weight: bold;
+}

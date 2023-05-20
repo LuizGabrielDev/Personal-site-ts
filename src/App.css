@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+
+.button {
+    border: 0;
+    color: #191825;
+    padding: 25px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #191825;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 750px) {
+    .button {
+        padding: 25px 0px;
+    }
+}
