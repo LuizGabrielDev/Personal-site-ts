@@ -6,7 +6,7 @@ function ItemPortfolio(props) {
     return (
         <div className="item-portfolio">
             <a href={props.link} target="_blank">
-                <img src={props.image} alt="Teste portfolio" />
+                <img src={props.image} alt="Teste portfolio" className="size" />
                 <p>{props.title}</p>
             </a>
         </div>
